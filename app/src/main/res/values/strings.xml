@@ -1,0 +1,12 @@
+<resources>
+
+    //O'zingiz o'zgartirish kiritsangiz bo'ladi
+
+    <string name="app_name">TasbehUz</string>
+    <string name="hello_world">Salom Dunyo!</string>
+    <string name="menu_settings">Sozlamalar</string>
+    <string name="title_activity_main">TasbehUz</string>
+    <string name="title_activity_about">Malumot</string>
+    <string name="title_activity_cy">MbmItCompany</string>
+
+</resources>

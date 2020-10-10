@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5DC90">
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/bagan"
+            android:layout_width="match_parent"
+            android:layout_height="506dp"
+            android:src="@drawable/baganc" />
+
+        <ImageView
+            android:id="@+id/layarr"
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            android:layout_y="22dp"
+            android:src="@drawable/layar" />
+
+        <ImageView
+            android:id="@+id/r"
+            android:layout_width="106dp"
+            android:layout_height="93dp"
+            android:layout_x="220dp"
+            android:layout_y="185dp"
+            android:src="@drawable/tombol_r" />
+
+        <ImageView
+            android:id="@+id/c"
+            android:layout_width="262dp"
+            android:layout_height="197dp"
+
+            android:layout_y="248dp"
+            android:src="@drawable/tombol_c" />
+
+        <TextView
+            android:id="@+id/hum"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_x="60dp"
+
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="130.0sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </AbsoluteLayout>
+</LinearLayout>
