@@ -4,9 +4,12 @@
 
     <string name="app_name">TasbehUz</string>
     <string name="hello_world">Salom Dunyo!</string>
-    <string name="menu_settings">Sozlamalar</string>
+    <string name="menu_settings">Orqaga</string>
     <string name="title_activity_main">TasbehUz</string>
     <string name="title_activity_about">Malumot</string>
     <string name="title_activity_cy">MbmItCompany</string>
+    <string name="tasbeh_soni_kiriting">Tasbeh soni kiriting:</string>
+    <string name="_33">33</string>
+    <string name="saqlash">Saqlash</string>
 
 </resources>

@@ -1,42 +1,43 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F44336">
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="84dp"
-        android:layout_marginTop="400dp"
-        android:onClick="om_mput"
-        android:text="Saqlash"
-        android:textColor="#FFEB3B"
-        android:textSize="30dp" />
-
-    <EditText
-        android:id="@+id/huum"
-        android:layout_width="100dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="300dp"
-        android:background="#fff"
-        android:ems="3"
-        android:hint="33"
-        android:inputType="number"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    android:background="@drawable/el"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="220dp"
-        android:text="Tasbeh soni kiriting:"
+        android:text="@string/tasbeh_soni_kiriting"
         android:textColor="#FFEB3B"
         android:textSize="40.0sp"
         android:typeface="serif" />
 
-</RelativeLayout>
+    <EditText
+        android:id="@+id/huum"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginStart="150dp"
+        android:ems="3"
+        android:hint="@string/_33"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:onClick="om_mput"
+        android:text="@string/saqlash"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+
+
+
+
+</LinearLayout>

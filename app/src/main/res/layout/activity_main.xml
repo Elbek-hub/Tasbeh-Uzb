@@ -36,7 +36,6 @@
             android:id="@+id/c"
             android:layout_width="262dp"
             android:layout_height="197dp"
-
             android:layout_y="248dp"
             android:src="@drawable/tombol_c" />
 
@@ -45,7 +44,6 @@
             android:layout_width="273dp"
             android:layout_height="wrap_content"
             android:layout_x="60dp"
-
             android:text="0"
             android:textColor="#000000"
             android:textSize="130.0sp"
